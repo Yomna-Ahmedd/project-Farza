@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+    <title>jQuery Magnify Demo</title>
+    <meta name="author" content="T. H. Doan" />
+    <meta name="description" content="This is a live demo of the jQuery Magnify plugin." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome/arrow-up-from-bracket-solid.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+    <link href="css/sheet.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="header-fixed">
+            <div class="head">
+                <div class="container">
+                    <div class="head-container">
+                        <div class="frist">
+                            <span>عربي</span>
+                            <span>My delivery area: Cairo</span>
+                        </div>
+                        <div class="second">
+                            <span>Sell on Farza </span>
+                            <span><i class="fas fa-phone"></i> Call 19966</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //////////////////////////////////////////////////////////////// -->
+            <nav class="navbar navbar-expand-lg header">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./image/WhatsApp Image 2023-03-24 at 3.12.04 PM.jpeg" class="img-fluid" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="">
+                            <i class="fa-solid fa-bars text-info"></i>
+                        </span>
+                    </button>
+                    <div class="menu collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>Categories</b>
+                                </a>
+                                <ul class="dropdown-menu multi-level" aria-labelledby="navbarDropdown">
+                                    <li class="dropdown-submenu p-2">
+                                        <div class="text d-flex align-items-center">
+                                            <img class="img-fluid w-50" src="image/Mobiles_and_tablets.png" alt="">
+                                            <span>Mobile &amp; Tablets</span>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li class="link"><a href="#">Mobile</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Tablets</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Mobile &amp; Tablet Accessories</a></li>
+                                        </ul>
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <hr>
+                                    <li class="dropdown-submenu p-2">
+                                        <div class="text d-flex align-items-center">
+                                            <img class="img-fluid w-50" src="image/TV_Entertainmentt.png" alt="">
+                                            <span>TVs</span>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li class="link"><a href="#">Explore all</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TVs</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Receivers</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TV Accessories</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Home Audio</a></li>
+                                        </ul>
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <hr>
+                                    <li class="dropdown-submenu p-2">
+                                        <div class="text d-flex align-items-center">
+                                            <img class="img-fluid w-75" src="image/small_hope_appliancess.png" alt="">
+                                            <span>Small Home Appliances</span>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li class="link"><a href="#"> Explore all</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Shope All</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Fans</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Air Coolers</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Heaters</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Kettles & Coffe Makers</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Microwaves</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Water Dispenser</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Hand Blenders</a></li>
+                                        </ul>
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <hr>
+                                    <li class="dropdown-submenu p-2">
+                                        <div class="text d-flex align-items-center">
+                                            <img class="img-fluid w-25" src="image/Large_home_appliancee.png" alt="">
+                                            <span> Large Home Appliances</span>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li class="link"><a href="#">Explore all</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TVs</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Receivers</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TV Accessories</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Home Audio</a></li>
+                                        </ul>
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <hr>
+                                    <li class="dropdown-submenu p-2">
+                                        <div class="text d-flex align-items-center">
+                                            <img class="img-fluid w-25" src="image/Laptops_PCss.png" alt="">
+                                            <span>Laptops & PCs</span>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li class="link"><a href="#">Explore all</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TVs</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Receivers</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TV Accessories</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Home Audio</a></li>
+                                        </ul>
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <hr>
+                                    <li class="dropdown-submenu p-2">
+                                        <div class="text d-flex align-items-center">
+                                            <img class="img-fluid w-25" src="image/beautyt_fitness.avif" alt="">
+                                            <span>Personal Care</span>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li class="link"><a href="#">Explore all</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TVs</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Receivers</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TV Accessories</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Home Audio</a></li>
+                                        </ul>
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <hr>
+                                    <li class="dropdown-submenu p-2">
+                                        <div class="text d-flex align-items-center">
+                                            <img class="img-fluid w-25" src="image/electronicss.png" alt="">
+                                            <span>Electronics</span>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li class="link"><a href="#">Explore all</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TVs</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Receivers</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TV Accessories</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Home Audio</a></li>
+                                        </ul>
+                                        <div class="arrow"></div>
+                                    </li>
+                                    <hr>
+                                    <li class="dropdown-submenu p-2">
+                                        <div class="text d-flex align-items-center">
+                                            <img class="img-fluid w-25" src="image/gaming_1.png" alt="">
+                                            <span>Gaming</span>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li class="link"><a href="#">Explore all</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TVs</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Receivers</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">TV Accessories</a></li>
+                                            <hr>
+                                            <li class="link"><a href="#">Home Audio</a></li>
+                                        </ul>
+                                        <div class="arrow"></div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="navbar-nav mb-2 mb-lg-0 w-25">
+                            <div class="nav-item ">
+                                <a class="nav-link active text-danger fs-tt" aria-current="page" href="#"><b>Everyday
+                                        Deals</b></a>
+                            </div>
+                        </div>
+                        <form class="d-flex w-100  position-relative">
+                            <input class="form-control p-3 me-1 " type="search"
+                                placeholder="Search for Product or brands" aria-label="Search">
+                            <i
+                                class="fa-solid fa-magnifying-glass position-absolute translate-middle end-0 top-50 p-2"></i>
+                        </form>
+                        <div class="d-flex acc align-itmes-center w-50">
+                            <div class="account-conect me-3 d-flex align-items-center">
+                                <a href="index6.html"><span><i class="fa-regular fa-user"></i><span class="mx-2">My
+                                            account</span></span></a>
+                            </div>
+                            <div class="cart-conect me-2">
+                                <a href="cart.html"><span class="w-100"><i class="fa-solid fa-cart-shopping"></i> <span
+                                            class="mx-2">Cart</span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div></div>
+            <!-- //////////////////////////////////////////////////////////////// -->
+
+        </div>
+
+    </header>
+    <div class="moge">
+        <div class="container">
+            <div>
+                <a class="mogee" href="#">Home</a>
+            </div>
+            <br>
+            <div class="magnify-container">
+                <!-- <div class="mag-container d-flex justify-content-around align-content-center">
+                    <div class="frist">
+                        <div>
+                            <img class="img-fluid w-25" src="image/mag2.png" alt="" />
+                        </div>
+                        <div>
+                            <img class="img-fluid w-25" src="image/mag3.png" alt="" />
+                        </div>
+                        <div>
+                            <img class="img-fluid w-25" src="image/mag4.png" alt="" />
+                        </div>
+                        <div>
+                            <img class="img-fluid w-25" src="image/mag5.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="magnify">
+                            <img id="sample-watch" src="image/mag1.png" alt="Sample-glasses" class="zoom" data-magnify-src="image/mag1.png"> &nbsp; &nbsp; &nbsp;
+                        </div>
+                    </div>
+                </div> -->
+                <div class="mag-container">
+                    <div class="first">
+                        <div class="box active">
+                            <img class="frist img-fluid" src="image/mag1.png" alt="" data-index="0" />
+                        </div>
+                        <div class="box">
+                            <img class="frist img-fluid" src="image/mag2.png" alt="" data-index="1" />
+                        </div>
+                        <div class="box">
+                            <img class="frist img-fluid" src="image/mag3.png" alt="" data-index="2" />
+                        </div>
+                        <div class="box">
+                            <img class="frist img-fluid" src="image/mag4.png" alt="" data-index="3" />
+                        </div>
+                        <div class="box">
+                            <img class="frist img-fluid" src="image/mag5.png" alt="" data-index="4" />
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="magnify">
+                            <img id="sample-watch" src="image/mag1.png" alt="Sample-glasses" class="zoom"
+                                data-magnify-src="image/mag1.png"> &nbsp; &nbsp; &nbsp;
+                        </div>
+                    </div>
+                    <div class="heart">
+                        <span><i class="fas fa-heart"></i></span>
+                    </div>
+
+                </div>
+                <div class="mag-container2">
+                    <span class="p-3 d-flex justify-content-end"><i
+                            class="fa-solid fa-arrow-up-from-bracket"></i></span>
+                    <p>I-Plus i-Watch Sport Smart Watch, 1.83 Inch IPS Display - Black</p>
+                    <br>
+                    <span>Save 100 EGP (6%)</span>
+                    <br>
+                    <br>
+                    <h2>1,699 <sub>EGP</sub></h2>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-dark" type="button">
+                            <span class="w-100"><i class="fa-solid fa-cart-shopping"></i> <span class="mx-2"></span>
+                                <span>Add to cart</span>
+                        </button>
+                        <p>Delivery to: Cairo, Ain Shams - Mostafa Hafez</p>
+                        <span class="w-100"><i class="fa-solid fa-truck"></i> <span class="mx-2">
+                                Doorstep delivery, as soon as Today, Wed, 5 April
+                            </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-full">
+            <div class="container">
+                <div class="content1">
+                    <i class="fas fa-phone"></i>
+                    <div class="text">
+                        <span>Call Support </span>
+                        <br>
+                        <span>19966</span>
+                    </div>
+                </div>
+                <hr>
+                <br>
+                <div class="content2">
+                    <div class="box">
+                        <p><b>Farza Warranty</b></p>
+                        <p><a href="#">Ultra</a></p>
+                        <p><a href="#">Ariston</a></p>
+                        <p><a href="#">Indesit</a></p>
+                        <p><a href="#">Braun</a></p>
+                        <p><a href="#">Babyliss</a></p>
+                        <p><a href="#">Ariete</a></p>
+                        <p><a href="#">Miele</a></p>
+                        <p><b>Farza services</b></p>
+                        <p><a href="#">Minicash</a></p>
+                    </div>
+                    <div class="box">
+                        <p><b>About</b></p>
+                        <p><a href="#">Work with us</a></p>
+                    </div>
+                    <div class="box">
+                        <p><b>Trending right now</b></p>
+                        <p><a href="#">Every Deals</a></p>
+                        <p><a href="#">Mobile</a></p>
+                        <p><a href="#">Braun offers</a></p>
+                        <p><a href="#">TVs</a></p>
+                        <p><a href="#">Accessories</a></p>
+                        <p><a href="#">Oppo</a></p>
+                        <p><a href="#">Samsung</a></p>
+                        <p><a href="#">Apple</a></p>
+                    </div>
+                    <div class="box">
+                        <p><b>Connect with us</b></p>
+                        <div class="logo-connect">
+                            <img src="image/face.png" alt="">
+                            <img src="image/insta.png" alt="">
+                            <img src="image/youtup.png" alt="">
+                        </div>
+                        <p><b>Download the Farza app</b></p>
+                        <div class="logo-items">
+                            <img src="image/IOS.png" alt="">
+                            <img src="image/Google.png" alt="">
+                            <img src="image/Huawei.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyright">
+                    Copyright &copy; 2023 <strong><b>Farza</b></strong> <strong>Inc. </strong>Powered || Yomna
+                    A.Eltolimy
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
